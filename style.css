@@ -12,12 +12,3 @@ canvas {
   border: 1px solid #ccc;
   margin-top: 20px;
 }
-*{
-    background-color: rgb(233, 226, 217);
-}
-h1{
-    color: darkred;
-}
-h2{
-    color: indigo;
-}
