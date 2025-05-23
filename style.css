@@ -12,3 +12,6 @@ canvas {
   border: 1px solid #ccc;
   margin-top: 20px;
 }
+h2 {
+  font-weight: normal;
+}
