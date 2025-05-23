@@ -15,3 +15,9 @@ canvas {
 *{
     background-color: rgb(233, 226, 217);
 }
+h1{
+    color: darkred;
+}
+h2{
+    color: indigo;
+}
