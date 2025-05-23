@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simulador MRU</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Simulador de Movimiento Rectilíneo Uniforme (MRU)</h1>
+  
+  <div class="controls">
+    <label>Posición inicial (x₀): <input type="number" id="x0" value="0" /></label>
+    <label>Velocidad (v): <input type="number" id="v" value="10" /></label>
+    <label>Tiempo total (s): <input type="number" id="time" value="10" /></label>
+    <button onclick="iniciarSimulacion()">Iniciar</button>
+    <button onclick="reiniciarSimulacion()">Reiniciar</button>
+  </div>
+
+  <canvas id="canvas" width="600" height="100"></canvas>
+
+  <div>
+    <canvas id="grafico" width="600" height="300"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
